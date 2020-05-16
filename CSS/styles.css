@@ -1,0 +1,24 @@
+/* Can have seperate css files for different things:
+    such as fonts, spacing, ect.
+*/
+body {
+    background-color: gray;
+}
+h2 {
+    color: brown;
+}
+.help {
+    color: blue;
+    text-align: center;
+    transform: translateX(0%) translateY(15%);
+}
+
+.idk {
+    background-color: rgba(red, green, blue, .5);
+    line-height: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 30px;
+}
